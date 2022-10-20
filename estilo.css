@@ -1,0 +1,106 @@
+body{
+    color: rgb(29, 29, 71);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: medium;
+    background-color: rgb(173, 219, 240);
+}
+
+#area-cabecalho{
+    background-color: white;
+    padding: 5px;
+}
+
+.pagina-principal{
+    text-align: center;
+    padding-left: 400px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
+}
+
+#logo{
+
+    width: 200px;
+    padding-left: 50px;
+}
+
+#corpo-site{
+    color: rgb(38, 38, 110);
+}
+
+/** Menu lateral**/
+
+#menu-lateral{
+    background-color: white;
+    width: 300px;
+    height: 600px;
+    float: left;
+    margin: 15px;
+}
+
+li{
+    padding: 10px;
+    list-style: none;
+    text-align: center;
+    float: center;
+    margin-right: 25px;
+}
+
+a{
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+
+}
+
+a:link, a:visited{
+    color: rgb(29, 29, 71);
+}
+
+#menu-lateral a:link, a:visited{
+    color:rgb(29, 29, 71);
+}
+
+#menu-lateral a:hover{
+    background-color: rgb(29, 29, 71);
+    color: white;
+}
+
+/**Corpo do Texto**/
+
+h1{
+    text-align: center;
+}
+
+p{
+    padding: 10px;
+}
+
+table{
+    text-align: center;
+    border: 50px;
+    border-color: rgb(38, 38, 110);
+    padding: 15px;
+    margin-left: 550px;
+}
+
+th{
+    background-color: white;
+    padding: 15px;
+}
+
+td{
+    padding: 15px;
+
+}
+
+.contato{
+    text-align: center;
+    margin-top: 150px;
+}
+/** Rodapé**/
+
+#rodape{
+    text-align: center;
+    margin-top: 295px;
+    background-color: white;
+}
